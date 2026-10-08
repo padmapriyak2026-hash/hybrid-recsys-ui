@@ -1,4 +1,5 @@
 Hybrid Recommendation Engine with Cold-Start Handling
+
 A movie recommendation system using MovieLens 1M that combines:
 - Collaborative Filtering (SVD)
 - Content-based filtering using genres and decade
@@ -8,13 +9,17 @@ Key Results
 - Hybrid model performs well for users with few ratings.
 - For cold-start movies, the hybrid model achieves 15.2% top-10 probability, compared with 6.7% for random guessing.
 - Performance improves significantly when full user history is available.
+  
 Streamlit App
+
 The interactive app allows users to:
 - Select a MovieLens user or create a new user.
 - Compare recommendations from different methods.
 - Add ratings and see recommendations update instantly.
 - Adjust diversity to get more varied movie suggestions.
+  
 Main Enhancements
+
 1. Diversity Re-ranking: Uses MMR to avoid repetitive recommendations.
 2. Fast Training: Trains once and saves the model for quick app use.
 3. Live Cold-Start: Creates recommendations for completely new users using their initial ratings.
