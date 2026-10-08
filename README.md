@@ -169,3 +169,4 @@ methods in the cold-user rows are small, hyperparameters were tuned without a se
 validation split in places, and evaluation uses one split with no confidence intervals. The
 diversity re-ranking above is a simple MMR pass, not a re-trained model, so it trades a little
 accuracy for spread rather than solving popularity bias at the source.
+Demo video: see `Video Project (1).mp4` in this repository.
